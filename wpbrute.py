@@ -35,7 +35,7 @@ def kodlar():
                 
                 print(x)
                 update(x)
-                dosya = open("basarili.txt", "w").write(x)
+                dosya = open("basarili.txt", "a").write(x)
     etiket = Label(text=x)
 def yazdir():
     sifreler = open(s.get(), "r").readlines()
